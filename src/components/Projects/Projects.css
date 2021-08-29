@@ -1,0 +1,164 @@
+.personal-projects {
+  padding: 100px 90px;
+  color: White;
+  background-color: #000000;
+  background-image: linear-gradient(120deg, #000000 20%, #434343 60%);
+}
+.work {
+  color: #898989;
+  font-family: "ITCAvantGarde";
+  font-size: 18px;
+  letter-spacing: 8px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  width: fit-content;
+  background-color: #000000;
+  background-image: linear-gradient(330deg, #000000 10%, #1d1d1d 84%);
+  padding: 30px 30px;
+}
+.work_inner {
+  background-color: black;
+  padding: 15px 20px;
+}
+.work2 {
+  font-size: 54px;
+  font-weight: 300;
+  font-family: "ITCAvantGarde";
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: white;
+}
+.work2 > span {
+  color: #3c86c6;
+  -webkit-text-stroke: 1px #3c86c6;
+}
+.project-content-exp {
+  font-weight: 100;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 500px;
+  line-height: 2;
+  color: #979797;
+}
+.personal-projects-twitter > img {
+  width: 45vw;
+  max-width: 700px;
+}
+.personal-projects-twitter {
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-around;
+  align-items: center;
+}
+.twitter-text {
+  width: 500px;
+}
+.two {
+  display: none;
+}
+.twitter-text-head {
+  font-size: 24px;
+  margin-bottom: 1.5em;
+  color: rgb(233, 233, 233);
+  font-family: "ITCAvantGarde";
+  font-weight: 300;
+  width: fit-content;
+}
+
+.personal-projects-endeavour > img {
+  width: 35vw;
+  max-width: 600px;
+}
+.personal-projects-endeavour {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  align-items: center;
+}
+.project_parent {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+.link {
+  color: #05a6e1;
+}
+
+.git {
+  color: #69f0ae;
+}
+.keys {
+  color: rgb(233, 233, 233);
+  font-weight: 600;
+}
+.divider2 {
+  width: 40%;
+  height: 1px;
+  background-color: white;
+  margin: 80px auto 0px auto;
+}
+@media only screen and (max-width: 1048px) {
+  .one {
+    display: none;
+  }
+  .two {
+    display: block;
+  }
+  .personal-projects-endeavour,
+  .personal-projects-twitter {
+    flex-direction: column;
+  }
+  .personal-projects-endeavour > img {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  .personal-projects-twitter > img {
+    width: 70vw;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  .project-content-exp {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .personal-projects {
+    padding: 80px 40px;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .personal-projects {
+    padding: 50px 30px;
+  }
+  .work {
+    font-size: 12px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+  }
+  .work-inner {
+    padding: 15px 15px;
+  }
+  .work2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .twitter-text {
+    width: 295px;
+    margin-top: 50px;
+  }
+  .twitter-text-head {
+    font-size: 20px;
+  }
+  .project-content-exp {
+    font-size: 15px;
+    width: 295px;
+    margin-top: 0px;
+  }
+}

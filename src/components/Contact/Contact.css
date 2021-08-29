@@ -1,0 +1,150 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_header {
+  color: #5c5c5c;
+  font-family: "ITCAvantGarde";
+  font-size: 18px;
+  letter-spacing: 8px;
+  font-weight: 300;
+  margin-bottom: 45px;
+  width: fit-content;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 10%, #e4ebfe 64%);
+  padding: 30px 30px;
+}
+.contact_header_inner {
+  background-color: white;
+  padding: 15px 20px;
+}
+.contact_greeting {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 80px;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  font-family: "ITCAvantGarde";
+}
+.contact_greeting > span {
+  color: #3c86c6;
+  -webkit-text-stroke: 1px #3c86c6;
+}
+.contact_left {
+  flex: 0.5;
+  margin: 100px 90px;
+}
+
+.left-ans {
+  display: flex;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  color: rgb(66, 66, 66);
+  font-family: "ITCAvantGarde";
+  font-size: 20px;
+  font-weight: 300;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  color: rgb(66, 66, 66);
+  font-family: "ITCAvantGarde";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.svg_detail {
+  color: #707070;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.contact-right {
+  flex: 0.5;
+  background-color: #e4ebfe;
+  position: relative;
+  overflow: hidden;
+}
+.hand {
+  height: 850px;
+  position: absolute;
+  top: -150px;
+  left: -460px;
+}
+@media only screen and (max-width: 1140px) {
+  .phone {
+    margin-right: 40px;
+    margin-bottom: 50px;
+  }
+  .left-ans {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+.hand{
+  top: -100px;
+  left: -54P0px;
+}
+}
+
+@media only screen and (max-width: 785px) {
+  .contact_left {
+    margin: 80px 40px;
+    flex: 1;
+  }
+  .contact-right {
+    display: none;
+  }
+  .left-ans {
+    flex-direction: row;
+  }
+  .phone {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 536px) {
+  .contact_header {
+    font-size: 12px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+  }
+  .contact_header_inner {
+    padding: 15px 15px;
+  }
+  .contact_greeting {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .phone,
+  .email {
+    font-size: 16px;
+  }
+  .svg_detail {
+    font-size: 15px;
+  }
+  .contact_left {
+    margin: 50px 30px;
+  }
+
+  .phone {
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .left-ans {
+    flex-direction: column;
+  }
+}

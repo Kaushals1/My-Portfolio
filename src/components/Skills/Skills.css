@@ -1,0 +1,167 @@
+.skills {
+  padding: 120px 90px;
+}
+.skills-tag-line {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  -webkit-text-stroke: 1px black;
+  font-family: "ITCAvantGarde";
+}
+.skills-tag-line > span {
+  color: #3c86c6;
+  -webkit-text-stroke: 1px #3c86c6;
+}
+.skills-sub-header-text {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #979797;
+  line-height: 1.6;
+}
+.top {
+  display: flex;
+  position: relative;
+}
+.top-right {
+  position: relative;
+}
+
+.skills-outer-div-color {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d5e1ee 74%);
+}
+.skills-inner-div-color {
+  background-color: #fff;
+}
+.skill {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom-card {
+  box-shadow: 10px 30px 80px rgba(120, 117, 117, 0.2);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.uiux-title {
+  color: #3c86c6;
+  -webkit-text-stroke: 0.5px #3c86c6;
+}
+
+.res-title {
+  color: #c9330c;
+  -webkit-text-stroke: 0.5px #c9330c;
+}
+.dev-title {
+  color: #771ceb;
+  -webkit-text-stroke: 0.5px #771ceb;
+}
+.common {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.uiux-logo {
+  background-color: #daeeff;
+}
+.res-logo {
+  background-color: #ffd4c9;
+}
+.dev-logo {
+  background-color: #efe2ff;
+}
+.card-title {
+  margin: 60px 0px 30px 0px;
+  font-size: 22px;
+  font-family: "ITCAvantGarde";
+  font-weight: 100;
+  -webkit-text-stroke: 0.5px black;
+}
+.card-desc {
+  font-weight: 100;
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  line-height: 2;
+  color: #707070;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bottom {
+    justify-content: center;
+    align-items: center;
+  }
+  .uiux {
+    margin-right: 50px;
+  }
+  .app {
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 1030px) {
+    .bottom {
+      flex-direction: column;
+    }
+    .uiux {
+      margin-right: 0px;
+      margin-bottom: 50px;
+    }
+  }
+}
+@media only screen and (max-width: 785px) {
+  .skills {
+    padding: 80px 40px;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .skills-tag-line {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .skills-sub-header-text {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    padding: 50px 30px;
+  }
+  .bottom {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .card-desc {
+    width: 240px;
+    font-size: 15px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card-desc {
+    width: 220px;
+    font-size: 15px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+}

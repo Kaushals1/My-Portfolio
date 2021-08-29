@@ -1,0 +1,102 @@
+.tools {
+  padding: 120px 90px;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  background-color: #f9f9f9;
+}
+.tools-tag-line {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  -webkit-text-stroke: 1px black;
+  font-family: "ITCAvantGarde";
+}
+.tools-tag-line > span {
+  color: #3c86c6;
+  -webkit-text-stroke: 1px #3c86c6;
+}
+.tools-sub-header-text {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #979797;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+.tools-outer-div-color {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #f9f9f9 10%, #e0e0e0 84%);
+}
+.tools-inner-div-color {
+  background-color: white;
+}
+.logo_parent {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.logo {
+  margin-right: 50px;
+  min-width: 0;
+  margin-top: 50px;
+}
+
+.cup {
+  position: absolute;
+  top: -50px;
+  width: 25vw;
+  right: 100px;
+  max-width: 500px;
+}
+.tools_right {
+  flex: 0.3;
+  position: relative;
+}
+
+@media only screen and (max-width: 1048px) {
+  .cup {
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .cup {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .tools {
+    padding: 80px 40px;
+  }
+}
+@media only screen and (max-width: 536px) {
+  .tools-tag-line {
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .tools-sub-header-text {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .tools {
+    padding: 50px 30px;
+  }
+  .logo > svg {
+    height: 38px;
+    width: 38px;
+  }
+  .logo {
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+}
