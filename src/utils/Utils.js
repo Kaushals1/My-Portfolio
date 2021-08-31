@@ -5,7 +5,6 @@ export const scrollToFunc = (target) => {
 gsap.registerPlugin(ScrollToPlugin);
   gsap.to(window, {
     duration: 0,
-
     scrollTo: target,
     ease: "power4.inOut"
   });
