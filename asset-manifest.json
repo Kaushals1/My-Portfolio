@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.5f91a536.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.ae235c9e.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.ae235c9e.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.6ca790da.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.6ca790da.js.map",
+    "static/js/2.e3cdcd2b.chunk.js": "/My-Portfolio/static/js/2.e3cdcd2b.chunk.js",
+    "static/js/2.e3cdcd2b.chunk.js.map": "/My-Portfolio/static/js/2.e3cdcd2b.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.5f91a536.chunk.css.map": "/My-Portfolio/static/css/main.5f91a536.chunk.css.map",
+    "static/js/2.e3cdcd2b.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.e3cdcd2b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/My-Portfolio/static/media/ITCAvantGardeStdMd.45a05fec.otf",
+    "static/media/Pencil Cup.842ab1b4.png": "/My-Portfolio/static/media/Pencil Cup.842ab1b4.png",
+    "static/media/hand3.9c9cff92.png": "/My-Portfolio/static/media/hand3.9c9cff92.png",
+    "static/media/ipad3.354b33e3.png": "/My-Portfolio/static/media/ipad3.354b33e3.png",
+    "static/media/iph2.f3415149.png": "/My-Portfolio/static/media/iph2.f3415149.png",
+    "static/media/ss.2eaeab99.png": "/My-Portfolio/static/media/ss.2eaeab99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ca790da.js",
+    "static/js/2.e3cdcd2b.chunk.js",
+    "static/css/main.5f91a536.chunk.css",
+    "static/js/main.ae235c9e.chunk.js"
+  ]
+}
