@@ -17,9 +17,11 @@
 }
 
 .footer_name {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 300;
   margin-bottom: 20px;
+  font-family: "ITCAvantGarde", sans-serif;
+
 }
 .footer_name > span {
   color: #3c86c6;
@@ -33,7 +35,7 @@
   margin-right: 60px;
   cursor: pointer;
   transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-  fill: rgb(199, 198, 198);
+  fill: rgb(255, 255, 255);
 }
 .footer_svg > svg:hover {
   fill: white;
@@ -123,8 +125,8 @@
   .footer {
     padding: 50px 30px;
   }
-  .top_right {
-    font-size: 16px;
+  .top_right_ul>li {
+    font-size: 14px;
   }
   .footer_name {
     font-size: 20px;

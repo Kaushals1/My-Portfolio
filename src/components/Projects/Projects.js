@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Group1287 from "../../img/iph2.png";
 import Twitter from "../../img/ipad3.png";
+import aisw from "../../img/aisw2.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -47,6 +48,25 @@ export default function Projects() {
       },
     });
 
+    gsap.from(".aisw-img", {
+      opacity: 0,
+      x: -40,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".aisw-anim",
+        start: "-260px 50%",
+      },
+    });
+
+    gsap.from(".aisw-anim", {
+      opacity: 0,
+      x: 40,
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".aisw-anim",
+        start: "-260px 50%",
+      },
+    });
     gsap.from(".one, .two", {
       opacity: 0,
       x: -40,
@@ -133,6 +153,7 @@ export default function Projects() {
               <span className="keys">Technologies Used -</span> Flutter, Dart,
               Firebase
               <br />
+              <span className="keys">Toos Used -</span> Figma
               <span className="keys">Functionalities -</span> User can create
               new projects, subtasks and add / remove team members.
               <br />
@@ -165,6 +186,8 @@ export default function Projects() {
               <span className="keys">Technologies Used -</span> Flutter, Dart,
               Firebase
               <br />
+              <span className="keys">Toos Used -</span> Figma
+              <br />
               <span className="keys">Functionalities -</span> User can create
               new projects, subtasks and add / remove team members.
               <br />
@@ -184,6 +207,32 @@ export default function Projects() {
                   GitHub Repo.
                 </a>
               </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="personal-projects-aisw">
+          <img className="aisw-img" src={aisw} alt="" />
+          <div className="aisw-text aisw-anim">
+            <div className="twitter-text-head">All India Strength Wars</div>
+            <div className="project-content-exp">
+              This is an ongoing project which is combination of a landing page
+              and an ecommerce application.
+              <br />
+              <br />
+              <span className="keys">Technologies Used -</span> Next.js
+              <br />
+              <span className="keys">Toos Used -</span> Figma
+              <br />
+              <span className="keys">Functionalities -</span> User can explore
+              the client's take on fitness and also purchase fitness equipments
+              and other accessories.
+              <br />
+              <span className="keys">Authentication / Authorisation - </span>JWT
+              <br />
+              <span className="keys">Database - </span>MongoDB
+              <br />
+              <br />
             </div>
           </div>
         </div>

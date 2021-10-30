@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import "./Hero.css";
 import ss from "../../img/ss.png";
+import Resume from '../../img/Resume.pdf'
 import { scrollToFunc } from "../../utils/Utils";
 function Hero() {
   useEffect(() => {
@@ -92,7 +93,27 @@ function Hero() {
                 scrollToFunc("#contact");
               }}
             >
-              <div className="cta-text">Let's Talk?</div>
+              <div className="cta-text">Let's Talk ?</div>
+            </div>
+            <div className="resume">
+              <a download href={Resume}>
+                <div>
+                  Download Resume &nbsp;
+                  <svg
+                  className='resume-svg'
+                    width="18"
+                    height="19"
+                    viewBox="0 0 12 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 14H12V16H0V14ZM5 0V6H0L6 12L12 6H7V0H5Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
         </div>

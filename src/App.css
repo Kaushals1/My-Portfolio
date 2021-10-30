@@ -52,6 +52,7 @@ ul {
 a,
 li {
   text-decoration: none;
+  color: white;
   -webkit-tap-highlight-color: transparent;
 }
 ::-webkit-scrollbar {
@@ -87,7 +88,7 @@ li {
 }
 .header-div-outer {
   color: #5c5c5c;
-  font-family: "ITCAvantGarde";
+  font-family: "ITCAvantGarde", sans-serif;
   font-size: 18px;
   letter-spacing: 8px;
   font-weight: 300;
@@ -104,7 +105,7 @@ li {
   line-height: 1.2;
   margin-bottom: 40px;
   -webkit-text-stroke: 1px black;
-  font-family: "ITCAvantGarde";
+  font-family: "ITCAvantGarde", sans-serif;
 }
 .tag-line > span {
   color: #3c86c6;

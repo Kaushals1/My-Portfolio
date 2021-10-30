@@ -2,11 +2,11 @@
   padding: 100px 90px;
   color: White;
   background-color: #000000;
-  background-image: linear-gradient(120deg, #000000 20%, #434343 60%);
+  background-image: linear-gradient(120deg, #000000 20%, #313131 60%);
 }
 .work {
   color: #898989;
-  font-family: "ITCAvantGarde";
+  font-family: "ITCAvantGarde", sans-serif;
   font-size: 18px;
   letter-spacing: 8px;
   font-weight: 300;
@@ -23,7 +23,7 @@
 .work2 {
   font-size: 54px;
   font-weight: 300;
-  font-family: "ITCAvantGarde";
+  font-family: "ITCAvantGarde", sans-serif;
   line-height: 1.2;
   margin-bottom: 40px;
   color: white;
@@ -54,6 +54,9 @@
 .twitter-text {
   width: 500px;
 }
+.aisw-text {
+  width: 500px;
+}
 .two {
   display: none;
 }
@@ -61,7 +64,7 @@
   font-size: 24px;
   margin-bottom: 1.5em;
   color: rgb(233, 233, 233);
-  font-family: "ITCAvantGarde";
+  font-family: "ITCAvantGarde", sans-serif;
   font-weight: 300;
   width: fit-content;
 }
@@ -99,6 +102,19 @@
   background-color: white;
   margin: 80px auto 0px auto;
 }
+
+.personal-projects-aisw > img {
+  width: 40vw;
+  max-width: 700px;
+}
+
+.personal-projects-aisw {
+  display: flex;
+  margin-top: 6em;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1048px) {
   .one {
     display: none;
@@ -107,7 +123,8 @@
     display: block;
   }
   .personal-projects-endeavour,
-  .personal-projects-twitter {
+  .personal-projects-twitter,
+  .personal-projects-aisw {
     flex-direction: column;
   }
   .personal-projects-endeavour > img {
@@ -120,8 +137,16 @@
     min-width: 300px;
     max-width: 600px;
   }
+  .personal-projects-aisw > img {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 600px;
+  }
   .project-content-exp {
     margin-top: 60px;
+  }
+  .aisw-text {
+    margin-top: 80px;
   }
 }
 
@@ -152,6 +177,10 @@
   .twitter-text {
     width: 295px;
     margin-top: 50px;
+  }
+  .aisw-text {
+    width: 295px;
+    margin-top: 100px;
   }
   .twitter-text-head {
     font-size: 20px;
