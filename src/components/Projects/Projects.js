@@ -153,7 +153,8 @@ export default function Projects() {
               <span className="keys">Technologies Used -</span> Flutter, Dart,
               Firebase
               <br />
-              <span className="keys">Toos Used -</span> Figma
+              <span className="keys">Tools Used -</span> Figma
+              <br/>
               <span className="keys">Functionalities -</span> User can create
               new projects, subtasks and add / remove team members.
               <br />
@@ -186,7 +187,7 @@ export default function Projects() {
               <span className="keys">Technologies Used -</span> Flutter, Dart,
               Firebase
               <br />
-              <span className="keys">Toos Used -</span> Figma
+              <span className="keys">Tools Used -</span> Figma
               <br />
               <span className="keys">Functionalities -</span> User can create
               new projects, subtasks and add / remove team members.
@@ -222,7 +223,7 @@ export default function Projects() {
               <br />
               <span className="keys">Technologies Used -</span> Next.js
               <br />
-              <span className="keys">Toos Used -</span> Figma
+              <span className="keys">Tools Used -</span> Figma
               <br />
               <span className="keys">Functionalities -</span> User can explore
               the client's take on fitness and also purchase fitness equipments
