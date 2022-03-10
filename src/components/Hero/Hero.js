@@ -76,7 +76,7 @@ function Hero() {
       </div>
       <div className="hero">
         <div className="hero-left">
-          <div className="intro">--- Introduction</div>
+          <div className="intro">Introduction</div>
           <div className="hero-left-header">
             <h1>
               Hello, My <br />
