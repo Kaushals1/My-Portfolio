@@ -16,10 +16,8 @@ function App() {
       css: { visibility: "visible" },
       duration: 0,
     });
-
     gsap.registerPlugin(ScrollTrigger);
-    
-  });
+  },[]);
 
   return (
     <div className="App">
